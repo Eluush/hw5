@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
         int clientOs = 1;
-        int clientDeviseYear = 2014;
+        int clientDeviseYear = 2015;
         if (clientOs == 0 && clientDeviseYear < 2015) {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке");
-        } else if (clientOs == 0 && clientDeviseYear<= 2015) {
+        } else if (clientOs == 0 && clientDeviseYear <= 2015) {
             System.out.println("Установите версию приложения для iOS по ссылке ");
         }
         if (clientOs == 1 && clientDeviseYear < 2015) {
